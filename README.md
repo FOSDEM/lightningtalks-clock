@@ -16,7 +16,7 @@ Hardware
 * 2 led matrix display
 * 1 active beeper
 * remote reset button attached
-* power source
+* power source for the arduino (powerbank)
 * a case
 
 Future ideas
