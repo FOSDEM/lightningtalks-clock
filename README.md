@@ -4,7 +4,7 @@ Simple countdown timer for lightning talks
 
 Features
 --------
-* Speaker can start timer with button
+* Speaker or heralding volunteer can start timer with button
 * Display towards the audience and the speaker
 * Starts count on reset with a beep
 * Beeps at 1 minute left
