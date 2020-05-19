@@ -10,9 +10,13 @@ unsigned int Clock = 0, R_clock;
 boolean Reset = false, Stop = false, Paused = false;
 volatile boolean timeFlag = false;
 
-#include <MD_Parola.h>
-#include <MD_MAX72xx.h>
+// standard library
 #include <SPI.h>
+// add MD_Parola library to Arduino IDE
+#include <MD_Parola.h>
+// add MD_MAX72xx library to Arduino IDE
+#include <MD_MAX72xx.h>
+// git -C ~/Arduino/libraries/ clone https://github.com/rocketscream/Low-Power
 #include <LowPower.h>
 
 // Define the number of devices we have in the chain and the hardware interface
